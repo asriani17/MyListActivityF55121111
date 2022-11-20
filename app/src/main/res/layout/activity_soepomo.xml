@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoepomoActivity">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:src="@drawable/supomo"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:text="Soepomo"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prof. Mr. Dr. Soepomo (Ejaan Soewandi: Supomo; lahir di Sukoharjo,
+        Jawa Tengah, 22 Januari 1903 – meninggal di Jakarta, 12 September 1958 pada
+        umur 55 tahun) adalah seorang pahlawan nasional Indonesia. Soepomo dikenal
+        sebagai arsitek Undang-undang Dasar 1945, bersama
+        dengan Muhammad Yamin dan Soekarno."
+        android:layout_centerInParent="true"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
